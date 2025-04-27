@@ -23,8 +23,29 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+# Reg.No-
+# Name-
+# Add your code here
+
+# Accept a string from the user
+input_string = input("Enter a string: ")
+
+# Slice the string from 4th position (index 3) to 10th position (index 9)
+substring = input_string[3:10]
+
+# Reverse the sliced substring and take alternate characters
+new_string = substring[::-1][::2]
+
+# Print the final processed string
+print("The new string is:", new_string)
+
+
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/c4d5fc85-fc69-495b-9488-743cde837e7a)
+
 
 ### RESULT
+RESULT
+The Python program to slice a string and reverse characters with alternate characters from the 4th to the 10th position has been successfully implemented and executed.
